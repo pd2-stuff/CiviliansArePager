@@ -1,0 +1,26 @@
+{
+	"blt_version" : 2,
+	"name" : "Civils are Pager",
+	"description" : "Civilians will be as pager if you kill them",
+	"author" : "tsK",
+	"image" : "civilspager.png",
+	"version" : "1",
+	"hooks" : [
+		{
+			"hook_id" : "lib/managers/menumanager",
+			"script_path" : "lua/menumanager.lua"
+		},
+		{
+			"hook_id" : "lib/managers/group_ai_states/groupaistatebesiege",
+			"script_path" : "lua/groupaistatebesiege.lua"
+		},
+		{
+			"hook_id" : "lib/units/civilians/civiliandamage",
+			"script_path" : "lua/civiliandamage.lua"
+		},
+		{
+			"hook_id" : "lib/units/civilians/logics/civilianlogicinactive",
+			"script_path" : "lua/civilianlogicinactive.lua"
+		}
+	]
+}
