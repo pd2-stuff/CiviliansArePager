@@ -3,10 +3,7 @@
 	"kic_options_menu_desc"  : "",
 
 	"kic_options_set_cops_in_disguise_title"  : "Civilians as a pager",
-	"kic_options_set_cops_in_disguise_desc"  : "Defines a chance of a killed civilian to trigger a pager call.",
-	"kic_options_set_cops_in_disguise_multi_5"  : "5%",
-	"kic_options_set_cops_in_disguise_multi_10"  : "10%",
-	"kic_options_set_cops_in_disguise_multi_20"  : "20%",
-	"kic_options_set_cops_in_disguise_multi_50"  : "50%",
-	"kic_options_set_cops_in_disguise_multi_100"  : "100%",
+	"kic_options_set_cops_in_disguise_desc"  : "Enable or disable a killed civilian triggering a pager call.",
+	"kic_options_set_cops_in_disguise_multi_0"  : "Disabled",
+	"kic_options_set_cops_in_disguise_multi_100"  : "Enabled",
 }

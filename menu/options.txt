@@ -12,10 +12,7 @@
 			"description" : "kic_options_set_cops_in_disguise_desc",
 			"callback" : "CiviliansArePager_set_cops_in_disguise",
 			"items" : [
-				"kic_options_set_cops_in_disguise_multi_5",
-				"kic_options_set_cops_in_disguise_multi_10",
-				"kic_options_set_cops_in_disguise_multi_20",
-				"kic_options_set_cops_in_disguise_multi_50",
+				"kic_options_set_cops_in_disguise_multi_0",
 				"kic_options_set_cops_in_disguise_multi_100"
 			],
 			"value" : "cops_in_disguise"

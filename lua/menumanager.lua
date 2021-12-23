@@ -11,7 +11,7 @@ CiviliansArePager.data_path = SavePath .. 'pagerarecivilians.txt'
 CiviliansArePager.settings = {
 	cops_in_disguise = 1,
 }
-CiviliansArePager.cops_in_disguise_chance = { 0.05, 0.1, 0.2, 0.5, 1 }
+CiviliansArePager.cops_in_disguise_chance = {0, 1}
 CiviliansArePager.civilians_killed_by_player = {}
 CiviliansArePager.civilians_to_avenge_nr = 0
 
